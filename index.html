@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<!-- 
+https://www.swiss.com/worldofswiss/en/#
+
+https://wovenmagazine.com/
+http://amandamartocchio.com/connecticut-architecture-firm-projects/
+https://www.thedistrict.co.uk/
+http://minimums.com/
+
+https://blog.hubspot.com/marketing/best-website-designs-list
+
+-->
+
+
+<html>
+  
+<head>
+    <meta charset="utd-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+
+<section class="slider">
+    <div id="slider-content">
+
+        <!--  IMAGE 1  -->
+        <div class="slider-image" id="image-active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg">
+            <div class="image-info">
+                <h3>Image Title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="button">
+                    <a href="#">Explore</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--  IMAGE 2  -->
+        <div class="slider-image">
+            <img src="https://www.nighthelper.com/wp-content/uploads/2016/03/nature_waterfall_summer_lake_trees_90400_3840x2160.jpg">
+            <div class="image-info">
+                <h3>Image Title</h3>
+                <p>
+                    Tortor pretium viverra suspendisse potenti nullam. At augue eget arcu dictum varius duis at consectetur. Vestibulum lorem sed risus ultricies tristique. Diam donec adipiscing tristique risus nec feugiat in fermentum. 
+                </p>
+                <div class="button">
+                    <a href="#">Explore</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--  IMAGE 3  -->
+        <div class="slider-image">
+            <img src="https://image.pbs.org/video-assets/pbs/nature/241862/images/mezzanine_152.jpg">
+            <div class="image-info">
+                <h3>Image Title</h3>
+                <p>
+                    Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Pellentesque nec nam aliquam sem et tortor consequat. Viverra adipiscing at in tellus integer feugiat scelerisque varius. In hendrerit gravida rutrum quisque.
+                </p>
+                <div class="button">
+                    <a href="#">Explore</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+  	<!-- ARROWS -->
+    <div class="arrows">
+        <div onClick="changeImage('p')"><i class="fas fa-angle-left"></i></div>
+        <div onClick="changeImage('n')"><i class="fas fa-angle-right"></i></div>
+    </div>
+  	
+    <!-- PROGRESS -->
+    <div id="progress">
+        <div><div onClick="changeImage(0)" class="slider-progressDiv" id="progress-active"></div></div>
+        <div><div onClick="changeImage(1)" class="slider-progressDiv"></div></div>
+        <div><div onClick="changeImage(2)" class="slider-progressDiv"></div></div>
+    </div>
+</section>
+    
+</body>
+
+<script src="script.js"></script>
+  
+</html>
