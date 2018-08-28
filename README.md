@@ -5,9 +5,9 @@ This is a web based image slider. I built this image slider with the goal of pra
 ## Features
 - Left and right arrows to change images
 - Progress circles that:
-  1. Indicate the number of images 
-  2. Which image is currently being displayed
-  3. Switches to a specific image when clicked
+  - Indicate the number of images 
+  - Which image is currently being displayed
+  - Switches to a specific image when clicked
 - Image title, description and link/button specific to each image
 
 ## Style
