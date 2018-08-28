@@ -8,7 +8,7 @@ This is a web based image slider. I built this image slider with the goal of pra
   - Indicate the number of images 
   - Which image is currently being displayed
   - Switches to a specific image when clicked
-- Image title, description and link/button specific to each image
+- Title, description and link/button specific to each image
 
 ## Style
 - The left and right arrows are only visible when the mouse is hovered over image slider
