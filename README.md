@@ -3,7 +3,7 @@
 This is a web based image slider. I built this image slider with the goal of practing/developing my HTML, CSS and JavaScript skills. It has multiple features and is visually appealing.
 
 ## Demo
-(https://isabellepotvin.github.io/Advanced-Image-Slider/)
+https://isabellepotvin.github.io/Advanced-Image-Slider/
 
 ## Features
 - Left and right arrows to change images
